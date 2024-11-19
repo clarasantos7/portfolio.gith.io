@@ -1,0 +1,56 @@
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 4rem;
+scroll-margin-top: 20rem;
+}
+
+header .header__left{
+    max-width: 80rem;
+    flex: 1;
+    margin-left: 20px;
+}
+
+header .header__left p{
+    max-width: 60rem;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+header .header__right .header__image{
+   position: relative;
+   line-height: 0;
+   margin-right: 100px;
+}
+
+header .header__right .header__image::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height:100% ;
+    border: 1px solid var(--tertiary-color);
+    position: absolute;
+    top: -1.5rem;
+    right: -1.5rem;
+    border-radius: 0.5rem;
+    z-index: -1;
+    margin-right: 40px;
+}
+
+header .header__right .header__image .clara{
+    position: 0.5rem;
+    min-width: 25rem;
+    max-width: 100%;
+}
+
+
+#clarise{
+    color:rgb(228, 41, 166);
+    font-family:  Geneva;
+}
+
+#aluna{
+    color:rgb(251, 110, 176);
+    font-family: serif;
+}

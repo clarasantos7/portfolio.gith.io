@@ -1,0 +1,111 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Outfit"sans-serif;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+}
+
+#titulo{
+    text-align: center;
+    font-family: Geneva;
+}
+
+#1{
+    font-family: var(--font-family) ;
+}
+
+.skills{
+
+    align-items: center;
+    display: block;
+    margin-top: 100px;
+    justify-content: space-between;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(255, 133, 208, 0.477);
+    box-shadow: 0 15px 20px rgba(255, 0, 170, 0.58);
+    height: auto;
+}
+.skills__content ul{
+list-style: none;
+}
+
+.skills__content ul li{
+    margin: 20px 0;
+}
+
+.skills__content .barras{
+    background-color: aliceblue;
+    display: block;
+    height: 20px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: .5s ease-in-out;
+}
+
+.barras > span {
+    height: 20px;
+    background: linear-gradient(to right,#f36ec2cc,#f8038acc);
+    position: absolute;
+    
+}
+
+.html{
+  width: 85%;
+  animation: html 7s;  
+}
+
+.c{
+    width: 40%;
+    animation: c 7s; 
+}
+.css{
+    width: 70%;
+    animation: css 7s; 
+}
+
+.javascript{
+    width: 55%;
+    animation: javascript 7s; 
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes c {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 40%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}

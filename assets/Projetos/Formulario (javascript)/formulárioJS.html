@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="formulário.js" defer></script>
+    <link rel="stylesheet" href="formulárioJS.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form id="form"  name="meuform" >
+        <h1>Olá, preencha seus dados para realizar sua inscrição</h1><br/>
+        <div class="div1">
+        
+
+         <p><label for="nome">Nome Completo*</label>
+          <input type="text" id="nomeid" ><br/></p>
+         
+         <p></p><label for="E-MAIL">E-mail*</label>
+          <input type="text" id="emailid"><br/></p>
+        
+        <p><label for="data">Data de Nascimento*</label>
+          <input type="date" id="dataid"><br/></p>
+
+         <p><label for="cel">Celular principal</label>
+          <input type="text" id="celid"><br/></p>
+
+         <p><label for="tel">Telefone Residencial</label>
+          <input type="text" id="telid"><br/></p>
+
+        
+
+         <p><label for="ingresso">Forma de ingresso*</label>
+          <select id="ingressoid">
+            <option value="Enem">Enem</option>
+            <option value="Vestibular">Vestibular</option>
+            <option value="Pagamento">Pagamento</option>
+         </select><br/></p>
+
+         <p><label for="Curso">Curso*</label>
+         <select id="cursoid">
+            <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
+            <option value="Administração">Administração</option>
+            <option value="Automotiva">Automotiva</option>
+         </select><br/></p>
+
+         <p><label for="Hab">Habilitação*</label>
+         <select id="Habilitaçaoid">
+            <option value="Presencial">Presencial</option>
+            <option value="Semipresencial">Semipresencial</option>
+            <option value="EAD">EAD</option>
+         </select><br/></p>
+
+         <p><label for="turno">Turno*</label>
+          <select id="Turnoid">
+            <option value="Manhã">Manhã</option>
+            <option value="Tarde">Tarde</option>
+            <option value="Noite">Noite</option>
+         </select><br/></p>
+
+         
+
+        </div>
+
+        <div class="div2">
+           
+
+           <p> <label for="dat">Data [Prova]</label><br/>
+          <select id="datid">
+            <option value="Dia:15/09/2024">Dia:15/09/2024</option>
+            <option value="Dia:16/09/2024">Dia:16/09/2024</option>
+            <option value="Dia:17/09/2024">Dia:17/09/2024</option>
+          </select><br/></p>
+
+         <p><label for="horario">Horário [Prova]</label>
+         <select id="horaid">
+          <option value="Horário: 08:00 AM">Horário: 08:00 AM</option>
+          <option value="Horário: 13:00 PM">Horário: 13:00 PM</option>
+          <option value="Horário: 19:00 PM">Horário: 19:00 PM</option>
+         </select><br/></p>
+
+         <p> <label for="Local">Local</label>
+         <select id="Localid">
+          <option value="Escola Lar do Saber">Escola Lar do Saber</option>
+          <option value="Colégio SENAI">Colégio SENAI</option>
+          <option value="Escola Inteligente">Escola Inteligente</option>
+         </select><br/></p>
+
+         <p><label for="cpf">CPF*</label>
+         <input type="text" id="cpfid"></br></p>
+
+         <p> <label for="RG">RG*</label>
+         <input type="text" id="RGid"></br></p>
+
+         <p><label for="nacionalidade">Ncaionalidade*</label>
+         <input type="text" id="nacionalidadeid"></br></p>
+
+         <p><label for="CEP">CEP*</label>
+         <input type="text" id="cepid"></br></p>
+
+         <p><label for="Endereço">Endereço*</label>
+         <input type="text" id="Endereçoid"></br></p>
+
+         <p><label for="N°">N°*</label>
+         <input type="text" id="Nid"></br></p>
+
+         <p><label for="complemento">Complemento</label>
+         <input type="text" id="complementoid"></br></p>
+
+         <p><label for="Bairro">Bairro</label>
+         <input type="text" id="Bairroid"></br></p>
+
+         <p><label for="Cidade">Cidade</label>
+         <input type="text" id="cidadeid"></br></p>
+
+         
+
+
+         <button type="submit" class=" enviar" value="Enviar" onclick="salvar()">Concluir</button>
+         
+         <label id="resultado"></label>
+        </div>
+    </form>
+    
+</body>
+</html>

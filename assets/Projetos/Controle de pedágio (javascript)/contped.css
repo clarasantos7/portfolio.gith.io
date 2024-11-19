@@ -1,0 +1,144 @@
+
+img{
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+   
+}
+ 
+#placaid2{
+    position: absolute;
+    margin-left: 225px;
+    margin-top: 420px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#placaid{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 450px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+   
+}
+
+
+#horaA2{
+    position: absolute;
+   
+    margin-left: 415px;
+    margin-top: 420px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#horaA{
+    
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 450px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#minA2{
+    position: absolute;
+    margin-left: 615px;
+    margin-top: 420px;
+    height: 30px;
+    font-size: 20px;
+}
+
+
+#minA{
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 450px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+
+
+
+#horaB2{
+    position: absolute;
+    margin-left: 825px;
+    margin-top: 420px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#horaB{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 450px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#minB2{
+    
+    position: absolute;
+    margin-left: 1025px;
+    margin-top: 420px;
+    height: 20px;
+    font-size: 20px;
+}
+
+#minB{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 450px;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+#botao{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 480px;
+    border-radius: 5px;
+}
+
+button{
+    font-size: 15pt;
+    
+    width: 100px;
+    height: 40px;    
+}
+
+#fin{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 480px; 
+    border-radius: 5px;
+}
+p{
+    position: absolute;
+}
+#resultado{
+    margin-top: 525px;
+    font-size: 20px;  
+}
+#finalizar{
+    margin-top: 550px;
+    font-size: 20px; 
+    
+}

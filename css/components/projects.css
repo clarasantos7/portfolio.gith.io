@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .projects {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    background-color:#ffffff;
+    font-family: Arial, sans-serif;
+  }
+
+ 
+  #titlulo2{
+    font-size: 50px;
+    margin-left: 10px;
+    font-family:  Geneva;
+  }
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    width: 80%;
+    max-width: 900px;
+    position: relative;
+  }
+  .carousel-item {
+    flex: 1;
+    position: relative;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    height: 250px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  .carousel-item .description {
+    position: absolute;
+    bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  /* Estilo para a imagem do meio (inicialmente maior) */
+  .carousel-item.middle {
+    flex: 1.5;
+    transform: scale(1.1);
+    z-index: 5;
+  }
+  /* Todas as imagens, exceto a do meio, permanecem desfocadas */
+  .carousel-item:not(.middle) img {
+    filter: blur(3px);
+    transform: scale(0.9);
+  }
+
+     /* Quando qualquer item é focalizado, desfoca os demais */
+     .carousel-item:hover img {
+        filter: blur(0);
+        transform: scale(1);
+      }
+      .carousel-item:hover .description {
+        opacity: 1;
+      }
+      /* Setas de navegação */
+      .carousel-nav {
+        font-size: 40px;
+        color: #0099ff;
+        cursor: pointer;
+        user-select: none;
+      }
+      .carousel-nav:hover {
+        color: #2980b9;
+      }
+  

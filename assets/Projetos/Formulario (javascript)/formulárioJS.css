@@ -1,0 +1,48 @@
+h1{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+ 
+body{
+    background-color: rgba(55, 58, 61, 0.658);
+    font: 13pt Arial;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+
+}
+
+.div1{
+    display: inline-block;
+    width: 30%;
+    margin-right: 150px;
+    margin-left: 200px;
+    margin-top: 0%;
+    padding: 20px;
+   
+    
+    text-align: center;
+}
+
+.div2{
+    display: inline-block;
+    width: 30%;
+    margin-right: 100px;
+    padding: 20px;
+    
+    text-align: center;
+}
+
+button{
+    font-size: 15pt;
+    padding: 10px;
+    
+}
+
+
+
+
+
+

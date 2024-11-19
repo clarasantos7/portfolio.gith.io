@@ -1,0 +1,83 @@
+:root{
+    --my-gray:#cccc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#titulo3{
+   font-size: 55px;
+   font-family:  Geneva;
+}
+
+
+.envemail{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    font-family: Verdana, Geneva;
+}
+
+form{
+    width: 100%;
+    max-width: 30rem;
+}
+
+label,input,textarea,button{
+    display: block;
+}
+
+input,textarea, button{
+    width: 100%;
+    font: inherit;
+    padding: 1.25rem;
+    font-weight: 700;
+}
+
+input, textarea{
+ margin-bottom: 1rem;
+ color: rgb(15, 15, 15);
+ background: rgb(245, 179, 203);
+ border-radius: 10px;
+ border: 0.125rem solid transparent;
+ transition: border-color 0.3s;
+ box-shadow: 0.3s;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus{
+outline: none;
+border-color: rgb(255, 0, 123);
+box-shadow: 0 0 0 0.3125rem #5b181800;
+}
+
+label{
+    margin-bottom: 0.5rem;
+    color: rgb(2, 2, 2);
+}
+
+textarea{
+    min-height: 12.5rem;
+    resize: vertical;
+}
+
+button{
+    border: none;
+    border-radius: 99px;
+    color: white;
+ background-color: #fa5194cc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover, button:focus{
+    outline: none;
+    background:  #fa5194cc;
+}
+
+button:disabled{
+    cursor: not-allowed;
+    background:  #fa5194cc;
+}

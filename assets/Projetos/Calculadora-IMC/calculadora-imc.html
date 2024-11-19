@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo_IMC</title>
+    <link rel="stylesheet" href="calculadora-imc.css">
+    <script src="calculadora-imc.js" defer></script>
+    
+</head>
+<body id="cl">
+    <h1>Cálculo de IMC - Índice de massa corporal</h1>
+    <div class="calc">
+    <p><label> Nome:</label><br>
+    <input type="text" id="nome"><br></p>
+    <p><label> Sexo:</label><br>
+        <input type="radio" name="sexo" id="fem" 
+        value="feminino"> feminino  
+        <input type="radio" name="sexo"  id="mas" 
+        value="Masculino"> Masculino<br />
+    <p><label> Peso:</label><br>
+    <input type="text" id="peso"><br></p>
+    <p><label>Altura:</label><br>
+    <input type="text" id="altura"><br></p>
+    <p><button onclick="calcular()">Calcular</button></p>
+    <p id="medicao"> </p>
+   
+</div>
+</body>
+</html>
